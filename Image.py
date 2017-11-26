@@ -14,7 +14,7 @@ def add_num(in_file,num,out_file):
 
     draw.text((width-80,0),str(num),fill=fill_color,font=font)         #在给定的位置绘制字符串,左上角为(0,0)
 
-    im.save(out_file)       #保存图片
+    im.save(out_file)       #保图片
 
 
 
